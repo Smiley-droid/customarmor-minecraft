@@ -1,0 +1,9 @@
+function customarmor:give/sword_neant
+function customarmor:give/sword_zeus
+function customarmor:give/pickaxe_divine
+function customarmor:give/pickaxe_omni
+function customarmor:give/helmet_poseidon
+function customarmor:give/helmet_luffy
+function customarmor:give/boots_maree
+function customarmor:give/gardien
+function customarmor:give/pegasus

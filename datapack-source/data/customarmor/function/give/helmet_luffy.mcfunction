@@ -1,0 +1,1 @@
+give @s leather_helmet[custom_name={"text":"Casque de Luffy","italic":false,"color":"red"},enchantments={thorns:3,protection:4},unbreakable={},custom_data={customarmor:{helmet:"luffy"}},item_model="customarmor:casque_luffy"]

@@ -1,0 +1,2 @@
+function customarmor:face_pitchcheck
+function customarmor:ray_cleanup

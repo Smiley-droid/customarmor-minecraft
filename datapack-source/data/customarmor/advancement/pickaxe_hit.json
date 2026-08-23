@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_pickaxe",
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{pickaxe:\"omni\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:pickaxe_hit"
+  }
+}

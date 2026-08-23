@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": "minecraft:leather_helmet",
+                  "predicates": {
+                    "minecraft:custom_data": "{customarmor:{helmet:\"luffy\"}}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:luffy_hit"
+  }
+}

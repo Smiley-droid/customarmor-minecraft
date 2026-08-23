@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_enchantments",
+  "levels": {
+    "minecraft:mending": 0
+  },
+  "add": true
+}
