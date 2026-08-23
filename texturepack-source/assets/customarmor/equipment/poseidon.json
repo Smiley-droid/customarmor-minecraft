@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "customarmor:poseidon" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "customarmor:poseidon" }
+    ]
+  }
+}

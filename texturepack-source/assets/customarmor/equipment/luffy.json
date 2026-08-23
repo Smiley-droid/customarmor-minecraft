@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "customarmor:luffy" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "customarmor:luffy" }
+    ]
+  }
+}

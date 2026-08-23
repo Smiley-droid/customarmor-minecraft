@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "customarmor:gardien" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "customarmor:gardien" }
+    ]
+  }
+}

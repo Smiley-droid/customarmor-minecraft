@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "customarmor:pegasus" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "customarmor:pegasus" }
+    ]
+  }
+}

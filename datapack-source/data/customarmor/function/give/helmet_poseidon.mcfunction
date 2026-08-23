@@ -1,1 +1,1 @@
-give @s netherite_helmet[custom_name={"text":"Casque de Poséidon","italic":false,"color":"aqua"},enchantments={respiration:3,protection:4},custom_data={customarmor:{helmet:"poseidon"}},item_model="customarmor:casque_poseidon"]
+give @s netherite_helmet[custom_name={"text":"Casque de Poséidon","italic":false,"color":"aqua"},enchantments={respiration:3,protection:4},custom_data={customarmor:{helmet:"poseidon"}},item_model="customarmor:casque_poseidon",equippable={asset_id:"customarmor:poseidon",slot:"head"}]
