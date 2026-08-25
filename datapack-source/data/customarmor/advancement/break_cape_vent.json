@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:leather_chestplate",
+          "durability": {
+            "max": 0
+          },
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{cape:\"vent\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:break_cape_vent"
+  }
+}

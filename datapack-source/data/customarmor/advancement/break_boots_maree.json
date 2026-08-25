@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_boots",
+          "durability": {
+            "max": 0
+          },
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{boots:\"maree\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:break_boots_maree"
+  }
+}

@@ -1,9 +1,6 @@
-# Déclenché quand le Marteau Sismique mine un bloc.
-# On lance un marker invisible depuis les yeux du joueur, dans sa direction de visée,
-# qui va avancer pas à pas jusqu'à retrouver le bloc miné.
-execute at @s anchored eyes rotated as @s run summon minecraft:marker ~ ~ ~ {Tags:["customarmor_ray"]}
-execute as @e[tag=customarmor_ray,limit=1,sort=nearest] run scoreboard players set @s customarmor_mode 0
-execute as @e[tag=customarmor_ray,limit=1,sort=nearest] at @s run function customarmor:ray_init
+# Déclenché quand le Marteau Sismique casse un bloc.
+# On utilise la position mémorisée par pickaxe_track (avant que le bloc casse),
+# donc pas de risque de viser un bloc décalé.
+function customarmor:pickaxe_mine_at with storage customarmor:cache
 
-# On réarme la détection pour le prochain coup de pioche
 advancement revoke @s only customarmor:pickaxe_hit

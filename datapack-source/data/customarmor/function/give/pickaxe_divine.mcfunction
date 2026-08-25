@@ -1,1 +1,1 @@
-give @s netherite_pickaxe[custom_name={"text":"Foreuse Divine","italic":false,"color":"aqua"},enchantments={efficiency:6,fortune:4,unbreaking:5},lore=[{"text":"Traverse la roche comme du beurre","italic":false,"color":"gray"}]]
+give @s netherite_pickaxe[custom_name={"text":"Foreuse Divine","italic":false,"color":"aqua"},enchantments={efficiency:6,fortune:4,unbreaking:5},custom_data={customarmor:{pickaxe:"divine"}},lore=[{"text":"Traverse la roche comme du beurre","italic":false,"color":"gray"}]]

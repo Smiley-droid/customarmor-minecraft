@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:leather_helmet",
+          "durability": {
+            "max": 0
+          },
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{helmet:\"luffy\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:break_helmet_luffy"
+  }
+}
