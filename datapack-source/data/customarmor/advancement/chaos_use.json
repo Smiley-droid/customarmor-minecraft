@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:nether_star",
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{tool:\"chaos\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:chaos_use"
+  }
+}

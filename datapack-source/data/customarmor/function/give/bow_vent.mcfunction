@@ -1,0 +1,1 @@
+give @s bow[custom_name={"text":"Arc du Vent","italic":false,"color":"white"},enchantments={punch:2,unbreaking:2},custom_data={customarmor:{bow:"vent"}},lore=[{"text":"Repousse violemment la cible","italic":false,"color":"gray"},{"text":"Mais les flèches font moins de dégâts (pas de Puissance)","italic":false,"color":"dark_gray"}]]
