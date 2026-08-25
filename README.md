@@ -9,12 +9,12 @@ Datapack + texture pack pour un serveur entre potes. Sans mods côté client.
 
 ## SHA1 (pour server.properties si vous poussez le resource pack automatiquement)
 
-- `customarmor-resourcepack.zip` : `b223e9c1b0d0e9438c3a1d66c872d892b8c1883e`
+- `customarmor-resourcepack.zip` : `b50d3c2c6854dee5dafa50daf0fb937408c36c19`
 
 Voir `server.properties` :
 ```
 resource-pack=<url_directe_vers_le_zip>
-resource-pack-sha1=b223e9c1b0d0e9438c3a1d66c872d892b8c1883e
+resource-pack-sha1=b50d3c2c6854dee5dafa50daf0fb937408c36c19
 ```
 
 ## Dossiers source
