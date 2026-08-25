@@ -1,1 +1,1 @@
-give @s netherite_boots[custom_name={"text":"Palmes de Poséidon","italic":false,"color":"aqua"},enchantments={depth_strider:3},custom_data={customarmor:{boots:"maree"}},item_model="customarmor:palmes_poseidon",lore=[{"text":"Nage plus vite que le courant","italic":false,"color":"gray"}]]
+give @s netherite_boots[custom_name={"text":"Palmes de Poséidon","italic":false,"color":"aqua"},enchantments={depth_strider:3},custom_data={customarmor:{boots:"maree"}},lore=[{"text":"Nage plus vite que le courant","italic":false,"color":"gray"}]]

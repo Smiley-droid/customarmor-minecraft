@@ -1,1 +1,1 @@
-give @s netherite_sword[custom_name={"text":"Lame du Néant","italic":false,"color":"dark_purple"},enchantments={sharpness:7,fire_aspect:2},custom_data={customarmor:{sword:"neant"}},item_model="customarmor:lame_neant"]
+give @s netherite_sword[custom_name={"text":"Lame du Néant","italic":false,"color":"dark_purple"},enchantments={sharpness:7,fire_aspect:2},custom_data={customarmor:{sword:"neant"}}]
