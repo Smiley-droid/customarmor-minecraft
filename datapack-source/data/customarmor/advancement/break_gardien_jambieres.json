@@ -3,11 +3,11 @@
     "requirement": {
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
+        "durability": {
+          "max": 0
+        },
         "item": {
           "items": "minecraft:netherite_leggings",
-          "durability": {
-            "max": 0
-          },
           "predicates": {
             "minecraft:custom_data": "{customarmor:{gardien:\"jambieres\"}}"
           }

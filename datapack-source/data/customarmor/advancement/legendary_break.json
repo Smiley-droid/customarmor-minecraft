@@ -3,8 +3,8 @@
     "requirement": {
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
+        "durability": {"max": 0},
         "item": {
-          "durability": {"max": 0},
           "predicates": {
             "minecraft:custom_data": "{customarmor:{legendary:1}}"
           }

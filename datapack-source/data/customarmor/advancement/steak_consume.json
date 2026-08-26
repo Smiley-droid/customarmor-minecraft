@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_beef",
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{food:\"steak_dore\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:steak_consume"
+  }
+}
