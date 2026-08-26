@@ -38,7 +38,7 @@ Menu en jeu : `/function customarmor:menu`
 
 ## Reliques légendaires (nouveau)
 
-- Une relique aléatoire (un des 18 items customs) apparaît parfois dans un petit sanctuaire, entre 1000 et 2000 blocs d'un joueur choisi au hasard (équitable entre tous les joueurs en ligne).
+- Une relique aléatoire (un des 18 items customs) apparaît parfois dans un petit sanctuaire, entre 200 et 300 blocs d'un joueur choisi au hasard (équitable entre tous les joueurs en ligne).
 - Vérification toutes les 20 secondes, ~3% de chance à chaque fois si aucune relique n'est déjà en circulation (~1 spawn toutes les 11 minutes en moyenne).
 - Une seule relique en circulation à la fois : tant qu'elle existe (récupérée ou non), aucune nouvelle ne peut apparaître. Elle redevient disponible quand la relique actuelle se casse.
 - Sécurité anti-grief : ne construit que dans un chunk actuellement non chargé (pas de garantie à 100%, meilleur signal disponible en vanilla).
