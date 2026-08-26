@@ -1,6 +1,6 @@
-# Magnitude aléatoire entre 200 et 300 sur chaque axe
-execute store result score #legendary customarmor_dx run random value 200..300
-execute store result score #legendary customarmor_dz run random value 200..300
+# Magnitude aléatoire entre 500 et 1000 sur chaque axe
+execute store result score #legendary customarmor_dx run random value 500..1000
+execute store result score #legendary customarmor_dz run random value 500..1000
 
 # Signe aléatoire (0 ou 1) pour chaque axe, pour couvrir les 4 directions autour du joueur
 scoreboard players operation #legendary_signx customarmor_rng = #legendary customarmor_rng
