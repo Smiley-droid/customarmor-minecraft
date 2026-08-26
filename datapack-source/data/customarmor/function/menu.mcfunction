@@ -8,4 +8,5 @@ tellraw @s [{"text":"[Cape du Vent] ","color":"aqua","click_event":{"action":"ru
 tellraw @s [{"text":"[Steak Doré] ","color":"gold","click_event":{"action":"run_command","command":"/function customarmor:give/steak_dore"}},{"text":"[Pierre du Chao]\n","color":"dark_purple","click_event":{"action":"run_command","command":"/function customarmor:give/pierre_chao"}}]
 tellraw @s [{"text":"[Houe Fertile]","color":"green","click_event":{"action":"run_command","command":"/function customarmor:give/hoe_fertile"}}]
 tellraw @s [{"text":"[Forcer spawn relique]","color":"light_purple","click_event":{"action":"run_command","command":"/function customarmor:legendary/force_spawn"}}]
+tellraw @s [{"text":"[Reset reliques]","color":"gray","click_event":{"action":"run_command","command":"/function customarmor:legendary/reset"}}]
 tellraw @s [{"text":"[TOUT DONNER]","color":"green","bold":true,"click_event":{"action":"run_command","command":"/function customarmor:give/all"}}]

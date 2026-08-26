@@ -504,10 +504,12 @@
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 2
+                    "minecraft:protection": 2,
+                    "minecraft:unbreaking": 3
                   }
                 },
-                "minecraft:dyed_color": 16777215
+                "minecraft:dyed_color": 16777215,
+                "minecraft:max_damage": 300
               }
             }
           ]
@@ -540,11 +542,13 @@
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 2
+                    "minecraft:protection": 2,
+                    "minecraft:unbreaking": 3
                   }
                 },
                 "minecraft:dyed_color": 16777215,
-                "minecraft:glider": {}
+                "minecraft:glider": {},
+                "minecraft:max_damage": 300
               }
             }
           ]
@@ -577,10 +581,12 @@
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 2
+                    "minecraft:protection": 2,
+                    "minecraft:unbreaking": 3
                   }
                 },
-                "minecraft:dyed_color": 16777215
+                "minecraft:dyed_color": 16777215,
+                "minecraft:max_damage": 300
               }
             }
           ]
@@ -614,10 +620,12 @@
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 2,
-                    "minecraft:feather_falling": 4
+                    "minecraft:feather_falling": 4,
+                    "minecraft:unbreaking": 3
                   }
                 },
-                "minecraft:dyed_color": 16777215
+                "minecraft:dyed_color": 16777215,
+                "minecraft:max_damage": 300
               }
             }
           ]

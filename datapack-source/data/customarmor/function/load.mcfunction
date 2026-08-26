@@ -6,7 +6,6 @@ scoreboard objectives add customarmor_fell dummy
 scoreboard objectives add customarmor_health health
 scoreboard objectives add customarmor_rng dummy
 scoreboard objectives add customarmor_const dummy
-scoreboard objectives add customarmor_elapsed dummy
 scoreboard players set #neg1 customarmor_const -1
 
 # Initialisation du cache de ciblage de la pioche 3x3
@@ -18,7 +17,7 @@ data modify storage customarmor:cache face set value "north"
 # Initialisation du système de relique légendaire
 execute unless data storage customarmor:legendary active run data modify storage customarmor:legendary active set value 0b
 
-# Démarre la boucle de vérification périodique (toutes les 20s) si pas déjà lancée
-schedule function customarmor:legendary/tick_check 20s replace
+# Boucle stricte : une vérification toutes les heures pile, spawn garanti si conditions réunies
+schedule function customarmor:legendary/hourly_check 1h replace
 
 tellraw @a {"text":"[CustomArmor] Datapack chargé avec succès !","color":"green"}

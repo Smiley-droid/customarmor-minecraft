@@ -1,1 +1,1 @@
-{"function":"minecraft:set_enchantments","levels":{"minecraft:protection":2},"add":false}
+{"function":"minecraft:set_enchantments","levels":{"minecraft:protection":2,"minecraft:unbreaking":3},"add":false}
