@@ -16,3 +16,9 @@ execute as @a if items entity @s weapon.offhand *[custom_data~{customarmor:{amul
 
 # Cape du Vent : petit boost de saut + chute plus douce (double-saut non simulable en vanilla)
 execute as @a if items entity @s armor.chest *[custom_data~{customarmor:{cape:"vent"}}] run effect give @s minecraft:jump_boost 2 1 true
+
+# Sanctuaires de reliques légendaires : particules d'ambiance + détection de récupération
+function customarmor:legendary/shrine_ambient
+
+# Particules sur les items customs tenus/portés
+function customarmor:particles_tick

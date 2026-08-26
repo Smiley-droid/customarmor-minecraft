@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "durability": {"max": 0},
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{legendary:1}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:legendary/on_break"
+  }
+}

@@ -33,6 +33,13 @@ Datapack pour un serveur entre potes. 100% vanilla côté client, aucun mod ni t
 
 - **Enchantements verrouillés** : chaque item reprend automatiquement ses enchantements d'origine si un joueur essaie d'en ajouter/modifier via table d'enchantement, enclume, etc. Vérifié à chaque changement d'inventaire (pas en boucle continue, pour la performance).
 - **Tout est cassable** : aucun item n'est indestructible (durabilité normale selon le matériau de base).
-- **Notification de casse** : un message s'affiche dans le chat pour tous les joueurs quand un item custom se casse, avec une ligne de log dédiée (`[customarmor-break] ...`) exploitable par un script externe pour relayer l'info sur Discord (voir `discord-bridge/` — nécessite un petit script Python à faire tourner à côté du serveur, une vraie intégration Discord n'est pas possible directement depuis un datapack).
 
 Menu en jeu : `/function customarmor:menu`
+
+## Reliques légendaires (nouveau)
+
+- Une relique aléatoire (un des 18 items customs) apparaît parfois dans un petit sanctuaire, entre 1000 et 2000 blocs d'un joueur choisi au hasard (équitable entre tous les joueurs en ligne).
+- Vérification toutes les 20 secondes, ~3% de chance à chaque fois si aucune relique n'est déjà en circulation (~1 spawn toutes les 11 minutes en moyenne).
+- Une seule relique en circulation à la fois : tant qu'elle existe (récupérée ou non), aucune nouvelle ne peut apparaître. Elle redevient disponible quand la relique actuelle se casse.
+- Sécurité anti-grief : ne construit que dans un chunk actuellement non chargé (pas de garantie à 100%, meilleur signal disponible en vanilla).
+- Commande de test (ignore le timer et la probabilité) : `/function customarmor:legendary/force_spawn`, aussi accessible via le menu.
