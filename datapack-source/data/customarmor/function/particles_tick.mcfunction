@@ -5,6 +5,7 @@ execute as @a at @s if items entity @s weapon.mainhand *[custom_data~{customarmo
 execute as @a at @s if items entity @s weapon.mainhand *[custom_data~{customarmor:{pickaxe:"omni"}}] run particle minecraft:crit ~ ~1.2 ~ 0.15 0.15 0.15 0 1
 execute as @a at @s if items entity @s weapon.mainhand *[custom_data~{customarmor:{axe:"bucheron"}}] run particle minecraft:composter ~ ~1.2 ~ 0.15 0.15 0.15 0 1
 execute as @a at @s if items entity @s weapon.mainhand *[custom_data~{customarmor:{bow:"vent"}}] run particle minecraft:cloud ~ ~1.2 ~ 0.15 0.15 0.15 0 1
+execute as @a at @s if items entity @s weapon.mainhand *[custom_data~{customarmor:{hoe:"fertile"}}] run particle minecraft:happy_villager ~ ~1.2 ~ 0.15 0.15 0.15 0 1
 
 # --- Casques portés ---
 execute as @a at @s if items entity @s armor.head *[custom_data~{customarmor:{helmet:"poseidon"}}] run particle minecraft:dripping_water ~ ~2.2 ~ 0.15 0.05 0.15 0 1

@@ -6,6 +6,7 @@ scoreboard objectives add customarmor_fell dummy
 scoreboard objectives add customarmor_health health
 scoreboard objectives add customarmor_rng dummy
 scoreboard objectives add customarmor_const dummy
+scoreboard objectives add customarmor_elapsed dummy
 scoreboard players set #neg1 customarmor_const -1
 
 # Initialisation du cache de ciblage de la pioche 3x3

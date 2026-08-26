@@ -13,3 +13,4 @@ function customarmor:give/cape_vent
 function customarmor:give/amulette_berserker
 function customarmor:give/steak_dore
 function customarmor:give/pierre_chao
+function customarmor:give/hoe_fertile

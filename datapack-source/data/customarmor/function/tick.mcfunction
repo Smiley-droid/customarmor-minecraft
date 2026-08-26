@@ -1,6 +1,9 @@
 # Suivi continu de la pioche 3x3 (mémorise le bloc visé avant qu'il casse)
 execute as @a if items entity @s weapon.mainhand *[custom_data~{customarmor:{pickaxe:"omni"}}] run function customarmor:pickaxe_track
 
+# Suivi continu de la Houe Fertile (mémorise la culture visée avant récolte)
+execute as @a if items entity @s weapon.mainhand *[custom_data~{customarmor:{hoe:"fertile"}}] run function customarmor:hoe_track
+
 execute as @a if items entity @s armor.head *[custom_data~{customarmor:{gardien:"casque"}}] if items entity @s armor.chest *[custom_data~{customarmor:{gardien:"plastron"}}] if items entity @s armor.legs *[custom_data~{customarmor:{gardien:"jambieres"}}] if items entity @s armor.feet *[custom_data~{customarmor:{gardien:"bottes"}}] run function customarmor:armor_effect
 
 execute as @a at @s if block ~ ~ ~ water if items entity @s armor.feet *[custom_data~{customarmor:{boots:"maree"}}] run effect give @s minecraft:dolphins_grace 2 4 true

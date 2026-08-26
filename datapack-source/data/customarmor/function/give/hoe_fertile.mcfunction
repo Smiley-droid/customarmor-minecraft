@@ -1,0 +1,1 @@
+give @s netherite_hoe[custom_name={"text":"Houe Fertile","italic":false,"color":"green"},custom_data={customarmor:{hoe:"fertile"}},lore=[{"text":"Replante automatiquement ce que tu récoltes","italic":false,"color":"gray"}]]

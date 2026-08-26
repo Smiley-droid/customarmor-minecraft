@@ -43,3 +43,12 @@ Menu en jeu : `/function customarmor:menu`
 - Une seule relique en circulation à la fois : tant qu'elle existe (récupérée ou non), aucune nouvelle ne peut apparaître. Elle redevient disponible quand la relique actuelle se casse.
 - Sécurité anti-grief : ne construit que dans un chunk actuellement non chargé (pas de garantie à 100%, meilleur signal disponible en vanilla).
 - Commande de test (ignore le timer et la probabilité) : `/function customarmor:legendary/force_spawn`, aussi accessible via le menu.
+
+## Houe Fertile (nouveau)
+
+Replante automatiquement blé, carottes, pommes de terre, betteraves et nether wart dès que tu les récoltes (uniquement les cultures mûres, pas les jeunes pousses accidentellement cassées).
+
+## Sanctuaire des reliques : mise à jour
+
+- **Garantie horaire** : si 2+ joueurs sont connectés, une relique apparaît au minimum toutes les heures (en plus des chances aléatoires plus fréquentes ~toutes les 11 min en moyenne).
+- **Gardiens** : 4 zombies apparaissent quand un joueur s'approche à moins de 15 blocs du sanctuaire (une seule fois par relique).

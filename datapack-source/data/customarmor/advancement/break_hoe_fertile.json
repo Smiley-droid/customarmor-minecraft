@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_hoe",
+          "durability": {
+            "max": 0
+          },
+          "predicates": {
+            "minecraft:custom_data": "{customarmor:{hoe:\"fertile\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "customarmor:break_hoe_fertile"
+  }
+}

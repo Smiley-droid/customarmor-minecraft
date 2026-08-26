@@ -9,6 +9,7 @@ execute if items entity @s weapon.mainhand *[custom_data~{customarmor:{pickaxe:"
 execute if items entity @s weapon.mainhand *[custom_data~{customarmor:{pickaxe:"omni"}}] run item modify entity @s weapon.mainhand customarmor:reset_pickaxe_omni
 execute if items entity @s weapon.mainhand *[custom_data~{customarmor:{axe:"bucheron"}}] run item modify entity @s weapon.mainhand customarmor:reset_axe_bucheron
 execute if items entity @s weapon.mainhand *[custom_data~{customarmor:{bow:"vent"}}] run item modify entity @s weapon.mainhand customarmor:reset_bow_vent
+execute if items entity @s weapon.mainhand *[custom_data~{customarmor:{hoe:"fertile"}}] run item modify entity @s weapon.mainhand customarmor:reset_hoe_fertile
 
 # Main secondaire
 execute if items entity @s weapon.offhand *[custom_data~{customarmor:{amulet:"berserker"}}] run item modify entity @s weapon.offhand customarmor:reset_amulette_berserker
