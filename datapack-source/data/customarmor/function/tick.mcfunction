@@ -17,8 +17,9 @@ execute as @a if items entity @s armor.head *[custom_data~{customarmor:{pegasus:
 # Amulette du Berserker : +dégâts si vie basse (8 PV = 4 coeurs ou moins)
 execute as @a if items entity @s weapon.offhand *[custom_data~{customarmor:{amulet:"berserker"}}] if score @s customarmor_health matches 0..8 run effect give @s minecraft:strength 2 1 true
 
-# Cape du Vent : petit boost de saut + chute plus douce (double-saut non simulable en vanilla)
+# Cape du Vent : boost de saut + vitesse + chute plus douce (double-saut non simulable en vanilla)
 execute as @a if items entity @s armor.chest *[custom_data~{customarmor:{cape:"vent"}}] run effect give @s minecraft:jump_boost 2 1 true
+execute as @a if items entity @s armor.chest *[custom_data~{customarmor:{cape:"vent"}}] run effect give @s minecraft:speed 2 1 true
 
 # Sanctuaires de reliques légendaires : particules d'ambiance + détection de récupération
 function customarmor:legendary/shrine_ambient

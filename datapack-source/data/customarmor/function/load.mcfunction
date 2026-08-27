@@ -18,6 +18,6 @@ data modify storage customarmor:cache face set value "north"
 execute unless data storage customarmor:legendary active run data modify storage customarmor:legendary active set value 0b
 
 # Boucle stricte : une vérification toutes les heures pile, spawn garanti si conditions réunies
-schedule function customarmor:legendary/hourly_check 1h replace
+schedule function customarmor:legendary/hourly_check 3600s replace
 
 tellraw @a {"text":"[CustomArmor] Datapack chargé avec succès !","color":"green"}

@@ -31,10 +31,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:sharpness": 7,
-                    "minecraft:fire_aspect": 2
-                  }
+                  "minecraft:sharpness": 7,
+                  "minecraft:fire_aspect": 2
                 }
               }
             }
@@ -67,9 +65,7 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:sharpness": 7
-                  }
+                  "minecraft:sharpness": 7
                 }
               }
             }
@@ -102,11 +98,9 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:efficiency": 6,
-                    "minecraft:fortune": 4,
-                    "minecraft:unbreaking": 5
-                  }
+                  "minecraft:efficiency": 6,
+                  "minecraft:fortune": 4,
+                  "minecraft:unbreaking": 5
                 }
               }
             }
@@ -139,11 +133,9 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:efficiency": 6,
-                    "minecraft:fortune": 4,
-                    "minecraft:unbreaking": 5
-                  }
+                  "minecraft:efficiency": 6,
+                  "minecraft:fortune": 4,
+                  "minecraft:unbreaking": 5
                 }
               }
             }
@@ -215,10 +207,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:punch": 2,
-                    "minecraft:unbreaking": 2
-                  }
+                  "minecraft:punch": 2,
+                  "minecraft:unbreaking": 2
                 }
               }
             }
@@ -251,10 +241,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:respiration": 3,
-                    "minecraft:protection": 4
-                  }
+                  "minecraft:respiration": 3,
+                  "minecraft:protection": 4
                 }
               }
             }
@@ -287,10 +275,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:thorns": 3,
-                    "minecraft:protection": 4
-                  }
+                  "minecraft:thorns": 3,
+                  "minecraft:protection": 4
                 }
               }
             }
@@ -323,9 +309,7 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:depth_strider": 3
-                  }
+                  "minecraft:depth_strider": 3
                 }
               }
             }
@@ -358,10 +342,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 4,
-                    "minecraft:respiration": 3
-                  }
+                  "minecraft:protection": 4,
+                  "minecraft:respiration": 3
                 }
               }
             }
@@ -394,10 +376,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 4,
-                    "minecraft:thorns": 3
-                  }
+                  "minecraft:protection": 4,
+                  "minecraft:thorns": 3
                 }
               }
             }
@@ -430,10 +410,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 4,
-                    "minecraft:swift_sneak": 1
-                  }
+                  "minecraft:protection": 4,
+                  "minecraft:swift_sneak": 1
                 }
               }
             }
@@ -466,11 +444,9 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 4,
-                    "minecraft:feather_falling": 4,
-                    "minecraft:depth_strider": 3
-                  }
+                  "minecraft:protection": 4,
+                  "minecraft:feather_falling": 4,
+                  "minecraft:depth_strider": 3
                 }
               }
             }
@@ -503,10 +479,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 2,
-                    "minecraft:unbreaking": 3
-                  }
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
                 },
                 "minecraft:dyed_color": 16777215,
                 "minecraft:max_damage": 300
@@ -541,10 +515,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 2,
-                    "minecraft:unbreaking": 3
-                  }
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
                 },
                 "minecraft:dyed_color": 16777215,
                 "minecraft:glider": {},
@@ -580,10 +552,8 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 2,
-                    "minecraft:unbreaking": 3
-                  }
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
                 },
                 "minecraft:dyed_color": 16777215,
                 "minecraft:max_damage": 300
@@ -618,11 +588,9 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 2,
-                    "minecraft:feather_falling": 4,
-                    "minecraft:unbreaking": 3
-                  }
+                  "minecraft:protection": 2,
+                  "minecraft:feather_falling": 4,
+                  "minecraft:unbreaking": 3
                 },
                 "minecraft:dyed_color": 16777215,
                 "minecraft:max_damage": 300

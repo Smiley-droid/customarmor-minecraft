@@ -1,4 +1,4 @@
 give @s leather_helmet[custom_name={"text":"Casque de Pegasus","italic":false,"color":"white"},dyed_color=16777215,enchantments={protection:2,unbreaking:3},max_damage=300,custom_data={customarmor:{pegasus:"casque"}}]
-give @s leather_chestplate[custom_name={"text":"Plastron de Pegasus","italic":false,"color":"white"},dyed_color=16777215,enchantments={protection:2,unbreaking:3},max_damage=300,glider={},custom_data={customarmor:{pegasus:"plastron"}}]
+give @s leather_chestplate[custom_name={"text":"Plastron de Pegasus","italic":false,"color":"white"},dyed_color=16777215,enchantments={protection:2,unbreaking:3},max_damage=600,glider={},custom_data={customarmor:{pegasus:"plastron"}}]
 give @s leather_leggings[custom_name={"text":"Jambières de Pegasus","italic":false,"color":"white"},dyed_color=16777215,enchantments={protection:2,unbreaking:3},max_damage=300,custom_data={customarmor:{pegasus:"jambieres"}}]
 give @s leather_boots[custom_name={"text":"Bottes de Pegasus","italic":false,"color":"white"},dyed_color=16777215,enchantments={protection:2,feather_falling:4,unbreaking:3},max_damage=300,custom_data={customarmor:{pegasus:"bottes"}}]
