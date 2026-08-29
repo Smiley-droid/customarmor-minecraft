@@ -1,0 +1,15 @@
+name: CustomArmorTools
+version: '1.0.0'
+main: com.customarmor.plugin.CustomArmorPlugin
+api-version: '1.26'
+author: CustomArmor
+description: Gere la pioche 3x3, la hache bucheron, et la houe fertile pour le pack CustomArmor.
+commands:
+  caxe:
+    description: Donne la Hache du Bucheron
+  cpickaxe:
+    description: Donne le Marteau Sismique
+  choe:
+    description: Donne la Houe Fertile
+  legendary:
+    description: Gere le systeme de reliques legendaires (spawn, reset, setmax, status)

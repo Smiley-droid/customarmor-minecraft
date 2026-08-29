@@ -1,8 +1,6 @@
 # Suivi continu de la pioche 3x3 (mémorise le bloc visé avant qu'il casse)
-execute as @a if items entity @s weapon.mainhand *[custom_data~{customarmor:{pickaxe:"omni"}}] run function customarmor:pickaxe_track
 
 # Suivi continu de la Houe Fertile (mémorise la culture visée avant récolte)
-execute as @a if items entity @s weapon.mainhand *[custom_data~{customarmor:{hoe:"fertile"}}] run function customarmor:hoe_track
 
 execute as @a if items entity @s armor.head *[custom_data~{customarmor:{gardien:"casque"}}] if items entity @s armor.chest *[custom_data~{customarmor:{gardien:"plastron"}}] if items entity @s armor.legs *[custom_data~{customarmor:{gardien:"jambieres"}}] if items entity @s armor.feet *[custom_data~{customarmor:{gardien:"bottes"}}] run function customarmor:armor_effect
 
@@ -23,6 +21,9 @@ execute as @a if items entity @s armor.chest *[custom_data~{customarmor:{cape:"v
 
 # Sanctuaires de reliques légendaires : particules d'ambiance + détection de récupération
 function customarmor:legendary/shrine_ambient
+
+# Décrémente le verrou anti-duplication du Steak Doré
+execute as @a if score @s customarmor_steak_lock matches 1.. run scoreboard players remove @s customarmor_steak_lock 1
 
 # Particules sur les items customs tenus/portés
 function customarmor:particles_tick

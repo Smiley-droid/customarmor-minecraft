@@ -1,1 +1,0 @@
-give @s netherite_pickaxe[custom_name={"text":"Marteau Sismique","italic":false,"color":"red"},enchantments={efficiency:6,fortune:4,unbreaking:5},custom_data={customarmor:{pickaxe:"omni"}},lore=[{"text":"Fait trembler la roche sur 3x3","italic":false,"color":"gray"}]]

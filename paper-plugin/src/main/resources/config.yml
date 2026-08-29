@@ -1,0 +1,17 @@
+# Configuration de CustomArmorTools
+
+legendary:
+  # Verification garantie toutes les X secondes (3600 = 1 heure)
+  check-interval-seconds: 3600
+  # Nombre minimum de joueurs connectes pour qu'un spawn puisse se produire
+  min-players: 2
+  # Distance min/max (en blocs) entre le joueur choisi au hasard et le point de spawn
+  spawn-min-distance: 500
+  spawn-max-distance: 1000
+  # Imprecision volontaire des coordonnees annoncees dans le chat
+  announce-fuzz-min: 200
+  announce-fuzz-max: 300
+  # Nombre maximum de chaque relique pouvant exister en circulation en meme temps.
+  # "default" s'applique a toutes les reliques non listees individuellement ci-dessous.
+  max-circulation:
+    default: 1

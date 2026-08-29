@@ -1,8 +1,8 @@
 function customarmor:give/sword_neant
 function customarmor:give/sword_zeus
 function customarmor:give/pickaxe_divine
-function customarmor:give/pickaxe_omni
-function customarmor:give/axe_bucheron
+cpickaxe
+caxe
 function customarmor:give/bow_vent
 function customarmor:give/helmet_poseidon
 function customarmor:give/helmet_luffy
@@ -13,4 +13,4 @@ function customarmor:give/cape_vent
 function customarmor:give/amulette_berserker
 function customarmor:give/steak_dore
 function customarmor:give/pierre_chao
-function customarmor:give/hoe_fertile
+choe

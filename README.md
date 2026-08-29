@@ -52,3 +52,46 @@ Replante automatiquement blé, carottes, pommes de terre, betteraves et nether w
 
 - **Garantie horaire** : si 2+ joueurs sont connectés, une relique apparaît au minimum toutes les heures (en plus des chances aléatoires plus fréquentes ~toutes les 11 min en moyenne).
 - **Gardiens** : 4 zombies apparaissent quand un joueur s'approche à moins de 15 blocs du sanctuaire (une seule fois par relique).
+
+## Plugin Paper (nouveau)
+
+Depuis cette mise à jour, la pioche 3x3, la hache du bûcheron, la houe fertile et
+**tout le système de reliques légendaires** sont gérés par un vrai plugin Paper
+(`paper-plugin/`), plus fiables que les approximations du datapack.
+
+### Récupérer le fichier compilé
+
+Le plugin se compile automatiquement via GitHub Actions à chaque push. Pour le
+télécharger : onglet **Actions** du repo → dernier run réussi → section
+**Artifacts** en bas de page → `CustomArmorTools.zip` (contient le `.jar`).
+
+### Installation
+
+1. Place `CustomArmorTools.jar` dans le dossier `plugins/` de ton serveur Paper.
+2. Redémarre le serveur (pas juste `/reload`, un plugin a besoin d'un vrai restart).
+3. Un fichier `plugins/CustomArmorTools/config.yml` apparaît — modifie-le pour
+   ajuster la fréquence de spawn des reliques ou leur nombre max en circulation
+   par type (`legendary.max-circulation.<item_id>: <nombre>`).
+
+### Commandes du plugin
+
+- `/caxe`, `/cpickaxe`, `/choe` : donnent la Hache du Bûcheron, le Marteau
+  Sismique, la Houe Fertile.
+- `/legendary spawn` : force un spawn de relique.
+- `/legendary reset` : réinitialise tout le système.
+- `/legendary status` : affiche le nombre de chaque relique en circulation.
+- `/legendary setmax <item_id|default> <nombre>` : change la limite de
+  circulation d'un type de relique (persisté dans `config.yml`).
+
+### Ce que ça corrige
+
+- **Pioche 3x3** : mine désormais exactement les bons blocs (évènement réel de
+  cassage, plus d'approximation par rayon).
+- **Hache du Bûcheron** : abat vraiment l'arbre entier (parcours en largeur
+  fiable, plus de raycast fragile).
+- **Houe Fertile** : replante correctement en vérifiant/consommant la bonne
+  graine.
+- **Reliques légendaires** : sauvegardées sur disque (survivent aux
+  redémarrages), nombre en circulation configurable par type, protection
+  anti-grief réelle (suivi des chunks contenant des blocs posés par les
+  joueurs, pas juste "chunk chargé ou non").
