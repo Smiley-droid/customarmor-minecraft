@@ -24,16 +24,15 @@
 
     <dependencies>
         <!--
-          IMPORTANT : la version ci-dessous cible Minecraft 26.2. Comme cette version
-          est sortie après la formation de Claude, le numéro exact du artifact Paper API
-          n'est pas garanti. Si la compilation échoue avec une erreur "could not find
-          artifact", va sur https://repo.papermc.io/service/rest/repository/browse/maven-public/io/papermc/paper/paper-api/
-          pour trouver le bon numéro de version et remplace-le ci-dessous.
+          Depuis Minecraft/Paper 26.1, le format de version a changé : ce n'est
+          plus "X-R0.1-SNAPSHOT" mais un système de plage ("version range") qui
+          résout automatiquement la dernière build disponible.
+          Source : https://docs.papermc.io/paper/dev/project-setup/
         -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.26.2-R0.1-SNAPSHOT</version>
+            <version>[26.2.build,)</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
